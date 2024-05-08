@@ -1,0 +1,13 @@
+# Force parameters.
+k: 0.2             # spring constant to center (larger pulls monomers more: more compact)
+k_decay: 1.000     # decay in spring constant (allows for freezing before full FCC structure)
+eps: 0.5           # well depth for Lennard-Jones (LJ), approx. Van der Waals force
+v_decay: 0.98      # decay of velocities at each timestep
+
+jit: 0.0           # controls jitter (0 = no jitter)
+jit_decay: 0.98    # decay in jitter
+
+# Timestep and iterations.
+Dt: 0.01           # timestep
+nt: 600            # number of timesteps per block
+nj: 8              # number of blocks

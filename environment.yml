@@ -1,0 +1,9 @@
+name: collapser
+dependencies:
+- python
+- pandas
+- matplotlib
+- scipy
+- pip
+- pip:
+    - pyyaml
